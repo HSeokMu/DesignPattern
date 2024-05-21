@@ -19,4 +19,9 @@ public class Car {
     public void setSpeed(int speed) {
         this.speed = speed;
     }
+
+    @Override
+    public String toString() {
+        return this.getName() + " " + this.getSpeed();
+    }
 }
