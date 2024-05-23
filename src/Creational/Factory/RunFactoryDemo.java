@@ -1,6 +1,6 @@
 package Creational.Factory;
 
-public class MainFactoryPattern {
+public class RunFactoryDemo {
     public static void main(String[] args) {
         CGasolineCarFactory gasolineCarFactory = new CGasolineCarFactory();
         CElectronicCarFactory electronicCarFactory = new CElectronicCarFactory();
