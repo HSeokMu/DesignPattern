@@ -7,6 +7,8 @@ public class CCarFactory {
         if(Objects.nonNull(brand)) {
             if ("hyundai".equalsIgnoreCase(brand)) {
                 return new CElectronicCarFactory();
+            } else if("test".equalsIgnoreCase(brand)) {
+                return null;
             }
             return new CGasolineCarFactory();
         }
