@@ -10,7 +10,7 @@ public class BillPugh {
         private static final BillPugh INSTANCE = new BillPugh();
     }
 
-    public BillPugh getInstance() {
+    public static BillPugh getInstance() {
         return BillPughHelper.INSTANCE;
     }
 }
