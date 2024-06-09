@@ -16,11 +16,9 @@ public class AdaterDemo {
 
         // 우리 프로젝트에서 사용할 땐 Adapter를 추가하여 작업 필요
         KaKaoUserAdapter kAdapter = new KaKaoUserAdapter(kUser);
-        System.out.println(kAdapter.getServiceName() + " / " + kAdapter.getUserName() + " / " + kAdapter.getSecret());
-        System.out.println(kAdapter.getToken());
-        System.out.println();
+        SocialNetworkAuthService.socialLogin(kAdapter);
+
         NaverUserAdapter nAdapter = new NaverUserAdapter(nUser);
-        System.out.println(nAdapter.getServiceName() + " / " + nAdapter.getUserName() + " / " + nAdapter.getSecret());
-        System.out.println(nAdapter.getToken());
+        SocialNetworkAuthService.socialLogin(nAdapter);
     }
 }
