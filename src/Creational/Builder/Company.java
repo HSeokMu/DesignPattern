@@ -1,9 +1,9 @@
 package Creational.Builder;
 
 public class Company {
-    private int cpId;
-    private String cpName;
-    private String cpNumber;
+    private final int cpId;
+    private final String cpName;
+    private final String cpNumber;
 
     public Company(int cpId, String cpName, String cpNumber) {
         this.cpId = cpId;
@@ -16,22 +16,22 @@ public class Company {
         return String.format("회사ID: %d, 회사명: %s, 회사번호: %s", cpId, cpName, cpNumber);
     }
 
-    public static class CompanyBuilder {
+    public static class builder {
         private int cpId;
         private String cpName;
         private String cpNumber;
 
-        public CompanyBuilder setCpId(int cpId) {
+        public builder setCpId(int cpId) {
             this.cpId = cpId;
             return this;
         }
 
-        public CompanyBuilder setCpName(String cpName) {
+        public builder setCpName(String cpName) {
             this.cpName = cpName;
             return this;
         }
 
-        public CompanyBuilder setCpNumber(String cpNumber) {
+        public builder setCpNumber(String cpNumber) {
             this.cpNumber = cpNumber;
             return this;
         }
