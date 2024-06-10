@@ -2,7 +2,7 @@ package Structural.Adapter;
 
 public class AdaterDemo {
     public static void main(String[] args) {
-        // 기존 카카오, 네이버 로그인 로직
+        // 기존 카카오, 네이버 로그인 로직 (예시)
         KakaoUser kUser = KakaoUser.builder()
                           .id("kakUser")
                           .password("abc1234!@#")
