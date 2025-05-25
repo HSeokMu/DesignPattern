@@ -1,4 +1,4 @@
-package Behavioral.Observer;
+package Behavioral.Observer.org;
 
 import java.util.ArrayList;
 import java.util.Random;

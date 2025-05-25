@@ -1,4 +1,4 @@
-package Behavioral.Observer;
+package Behavioral.Observer.org;
 
 public class ObserverDemo {
     public static void main(String[] args) {

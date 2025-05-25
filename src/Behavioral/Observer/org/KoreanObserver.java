@@ -1,4 +1,4 @@
-package Behavioral.Observer;
+package Behavioral.Observer.org;
 
 import lombok.AllArgsConstructor;
 

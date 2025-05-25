@@ -1,4 +1,4 @@
-package Behavioral.Observer;
+package Behavioral.Observer.org;
 
 public interface ISubject {
     void registerObserver(IObserver o); // 구독 추가
